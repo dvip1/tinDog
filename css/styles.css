@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+h1{
+	 font-family: 'Montserrat-Black, sans-serif';  
+	 font-size: 3rem; 
+	  line-height: 1.5; 
+	  font-weight: 900;
+}
+#title{
+	background-color: #ff4c68;
+}
