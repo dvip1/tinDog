@@ -1,4 +1,4 @@
-/*Hello*/
+@import bootstrap
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 h1{
 	 font-family: 'Montserrat-Black, sans-serif';  
@@ -7,5 +7,8 @@ h1{
 	  font-weight: 900;
 }
 #title{
-	background-color: #ff4c68;
+	background-color: #ef2c60;
+}
+.my-container{
+	padding: 3% 15% ;
 }

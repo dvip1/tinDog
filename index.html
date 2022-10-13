@@ -11,14 +11,16 @@
 
 
 <body>
-<!-------------importing javascript bootstrap--------------->
+<!-------------importing js bs and fontawesome --------------->
+  <script src="https://kit.fontawesome.com/c9dc8e623e.js" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-<!-------------/importing javascript bootstrap--------------->
+<!-------------/importing js bs and fontawesome--------------->
 
 
 <!-----------------------First Page----------------------->
   <section id="title">
-
+  <!---------------------- fluid container --------------------->    
+  <div class="container-fluid" style="padding:3% 15% 0 15%">
     <!---------------------- Nav Bar --------------------->
       <nav class="navbar navbar-dark  navbar-expand-md sticky-top">
         <a href="#" class="navbar-brand">tindog</a>
@@ -34,7 +36,7 @@
         </div>
     </nav>
     <!----------------------/Nav Bar --------------------->  
-    
+  <!---------------------- /fluid container ---------------------> 
   </div>
     </div>
     </button>
@@ -42,20 +44,25 @@
 
 
     <!-- Title -->
-
-    <div>
+    <!---------------------- fluid container ---------------------> 
+    <div class="container-fluid my-container">
        <div class="row">
           <div class="col-lg-6">
             <h1>Meet new and interesting dogs nearby.</h1>
-            <button type="button">Download</button>
-            <button type="button">Download</button>
+            <button type="button" class="btn btn-lg btn-outline-light"> 
+            <span class="fa-brands fa-apple"></span> Download
+          </button>
+            <button type="button" class="btn btn-lg btn-dark ">
+            <span class="fa-brands fa-google-play"></span> Download
+          </button>
       </div>
       <div class="col-lg-6">
       <img src="images/iphone6.png" alt="iphone-mockup">
     </div>
       </div>
     </div>
-     
+    <!---------------------- /fluid container ---------------------> 
+  </div>
 
   </section>
 
