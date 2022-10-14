@@ -1,14 +1,69 @@
-@import bootstrap
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 h1{
 	 font-family: 'Montserrat-Black, sans-serif';  
 	 font-size: 3rem; 
 	  line-height: 1.5; 
 	  font-weight: 900;
+	  color: #fffbff;
+	  padding-bottom: 2%;
 }
 #title{
 	background-color: #ef2c60;
 }
 .my-container{
 	padding: 3% 15% ;
+}
+.spacer{
+	aspect-ratio: 960/300;
+	width: 100%;
+	background-repeat: no repeat;
+	background-position: center;
+	background-size: cover;
+
+}
+.flip{
+	transform: rotate(180deg);
+}
+.custom-shape-divider-top-1665734735 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1665734735 svg {
+    position: relative;
+    display: block;
+    width: calc(107% + 1.3px);
+    height: 122px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1665734735 .shape-fill {
+	/* fill: #FF577F; */
+	fill: #F2789F;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+	.custom-shape-divider-top-1665734735 svg {
+		width: calc(124% + 1.3px);
+        height: 154px;
+    }
+}
+
+.my-container img, svg{
+	transform: rotate(377deg);
+	height: 80%;
+}
+.my-container button{
+	margin: 0 1.5%;
+}
+.nav-items{
+	transition: all .4s ease-in-out; 
+} 
+.nav-items:hover{
+	transform: scale(1.1);
 }
