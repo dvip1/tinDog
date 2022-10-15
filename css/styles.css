@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+*{
+	font-family: 'Montserrat-Black', sans-serif;
+}
 h1{
 	 font-family: 'Montserrat-Black, sans-serif';  
-	 font-size: 3rem; 
+	 font-size: 2.7rem; 
 	  line-height: 1.5; 
 	  font-weight: 900;
 	  color: #fffbff;
@@ -55,15 +58,32 @@ h1{
 }
 
 .my-container img, svg{
-	transform: rotate(377deg);
-	height: 80%;
+	transform: rotate(25deg);
+	width: 60%;
 }
 .my-container button{
-	margin: 0 1.5%;
+	margin: 1% 2%;
 }
+.nav-brand{
+	color: #fff;
+	font-size: 2rem;
+	font-weight: inherit;
+	font-family: "Ubuntu", sans-serif;
+}
+.nav-brand:hover{
+	transform: scale(1.2);
+	transform: translate(2px, 2px);
+}
+
 .nav-items{
-	transition: all .4s ease-in-out; 
+	transition: all .4s ease-in-out;
+	color: #EDE4E0;
+	 font-size: 1rem;
+	font-weight: inherit;
+	padding: 0 15px;
+
 } 
 .nav-items:hover{
-	transform: scale(1.1);
+	transform: scale(1.2);
+	transform: translate(2px, 2px);
 }
