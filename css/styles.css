@@ -11,7 +11,9 @@ h1{
 	  padding-bottom: 2%;
 }
 #title{
-	background-color: #ef2c60;
+	background-color: #ef2c60;	
+	overflow: scroll;
+	height: 100vh;
 }
 .my-container{
 	padding: 3% 15% ;
@@ -45,8 +47,8 @@ h1{
 }
 
 .custom-shape-divider-top-1665734735 .shape-fill {
-	/* fill: #FF577F; */
-	fill: #F2789F;
+	fill: #FF577F;
+	/* fill: #F2789F; */
 }
 
 /** For mobile devices **/
