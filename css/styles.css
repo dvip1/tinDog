@@ -1,19 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 *{
 	font-family: 'Montserrat-Black', sans-serif;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	cursor: default;
 }
 h1{
 	 font-family: 'Montserrat-Black, sans-serif';  
 	 font-size: 2.7rem; 
 	  line-height: 1.5; 
 	  font-weight: 900;
-	  color: #fffbff;
+	  color: #EDE4E0;
 	  padding-bottom: 2%;
 }
 #title{
-	background-color: #ef2c60;	
+	background-image: linear-gradient(to left,  #ff6653 , #fe1c74);	
 	overflow: scroll;
 	height: 100vh;
+}
+
+.logo{
+	width: 3%;
+	height: 2%;
 }
 .my-container{
 	padding: 3% 15% ;
@@ -44,11 +55,12 @@ h1{
     width: calc(107% + 1.3px);
     height: 122px;
     transform: rotateY(180deg);
-}
+} 
 
-.custom-shape-divider-top-1665734735 .shape-fill {
-	fill: #FF577F;
-	/* fill: #F2789F; */
+/* .custom-shape-divider-top-1665734735 .shape-fill {
+	fill: #FF577F; 
+	fill: #F2789F; 
+	fill: #fe3568;
 }
 
 /** For mobile devices **/
@@ -62,9 +74,10 @@ h1{
 .my-container img, svg{
 	transform: rotate(25deg);
 	width: 60%;
+	margin-left: 3%;
 }
 .my-container button{
-	margin: 1% 2%;
+	margin: 3% 3%;
 }
 .nav-brand{
 	color: #fff;
@@ -77,9 +90,9 @@ h1{
 	transform: translate(2px, 2px);
 }
 
-.nav-items{
+.nav-items {
 	transition: all .4s ease-in-out;
-	color: #EDE4E0;
+	color: #EDE4E0 !important;
 	 font-size: 1rem;
 	font-weight: inherit;
 	padding: 0 15px;
@@ -89,3 +102,64 @@ h1{
 	transform: scale(1.2);
 	transform: translate(2px, 2px);
 }
+#features{
+	margin-top: 5%;
+}
+.my-col{
+	text-align: center;
+}
+.s-icons{
+	font-size: 3.2rem;
+	color: #ef8172;
+	margin: 1rem 0;
+}
+.s-icons:hover{
+	color: #fe1f73;
+
+}
+.animation {
+	cursor: pointer;
+	position: relative;
+	padding: 10px 20px;
+	/* background: white; */
+	font-size: 28px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	transition: all 1s;
+  }
+  .animation:after, .animation:before {
+	content: " ";
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	border: 0px solid #fff;
+	transition: all 1s;
+  }
+  .animation:after {
+	top: -1px;
+	left: -1px;
+	border-top: 0.2rem solid #ff6155;
+	border-left: 0.2rem solid #ff6155;
+  }
+  .animation:before {
+	bottom: -1px;
+	right: -1px;
+	border-bottom: 0.2rem solid #ff6155;
+	border-right: 0.2rem solid #ff6155;
+  }
+  .animation:hover {
+	border-top-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+  }
+  .animation:hover:before, .animation:hover:after {
+	width: 100%;
+	height: 100%;
+  }
+  
+  .data-container {
+	background: #ffebee;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
