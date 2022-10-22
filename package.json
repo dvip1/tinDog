@@ -1,7 +1,7 @@
 {
   "name": "tindog",
   "version": "1.0.0",
-  "description": "",
+  "description": "A ",
   "main": "index.js",
   "scripts": {
     "sass": "sass --watch sass/style.scss:css/style.css",
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/dvip1/tinDog.git"
   },
-  "author": "",
+  "author": "Dvip Patel",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/dvip1/tinDog/issues"
