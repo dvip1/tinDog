@@ -203,3 +203,32 @@ h1{
 	width: 15%;
 	margin: 10px;
 }
+/* 
+pricing section starts here */
+#pricing{
+	text-align: center;
+	padding: 100px;
+	color: black;
+}
+#pricing h1{
+	font-family: 'Montserrat-Black', sans-serif;
+	line-height: 1.5;
+	font-weight: bold;
+	font-size: 2.5 rem;
+	color: #000;
+}
+#pricing p{
+	font-family: 'Montserrat-Black', sans-serif;
+	line-height: 1.5;;
+	font-size: 1.5 rem;
+	color: #000;
+}
+.my-card{
+	height: 100%;
+}
+.card-texts{
+	text-align: center;
+}
+.whole-deck{
+	padding-top: 3%;
+}

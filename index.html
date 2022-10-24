@@ -1,49 +1,56 @@
 <!-- giving an example of how to use git. -->
 <!DOCTYPE html>
 <html>
+
 <head>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Ubuntu:wght@300;400;700&display=swap"
+    rel="stylesheet">
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0"> 
-  <title>TinDog</title><link rel="stylesheet" type="text/css" href="css/style.css">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>TinDog</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
 
 <body>
-<!-------------importing js bs and fontawesome --------------->
+  <!-------------importing js bs and fontawesome --------------->
   <script src="https://kit.fontawesome.com/c9dc8e623e.js" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-<!-------------/importing js bs and fontawesome--------------->
-<!-- wavy stuff! -->
-<style>
-  .layer1{
-    background-image: url("images/wave-haikei.svg");
-  }
-</style>
-<!-- /wavy stuff! -->
-<!-----------------------First Page----------------------->
-  <section id="title">     
-  <div class="container-fluid" style="padding:3% 15% 0 15%" id="con" >
-    <!---------------------- Nav Bar --------------------->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <!-------------/importing js bs and fontawesome--------------->
+  <!-- wavy stuff! -->
+  <style>
+    .layer1 {
+      background-image: url("images/wave-haikei.svg");
+    }
+  </style>
+  <!-- /wavy stuff! -->
+  <!-----------------------First Page----------------------->
+  <section id="title">
+    <div class="container-fluid" style="padding:3% 15% 0 15%" id="con">
+      <!---------------------- Nav Bar --------------------->
       <nav class="navbar navbar-dark  navbar-expand-md sticky-top">
-        <a href="#" class="navbar-brand nav-brand animation" > tindog</a>
-        
+        <a href="#" class="navbar-brand nav-brand animation"> tindog</a>
+
         <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar">
-            <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
         </button>
         <div class="navbar-collapse collapse my-nav" id="navbar">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item nav-items "><a href="#" class="nav-link">Home</a></li>
-                <li class="nav-item nav-items "><a href="#" class="nav-link">About</a></li>
-                <li class="nav-item nav-items "><a href="#" class="nav-link">Contact</a></li>
-            </ul>
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item nav-items "><a href="#" class="nav-link">Home</a></li>
+            <li class="nav-item nav-items "><a href="#" class="nav-link">About</a></li>
+            <li class="nav-item nav-items "><a href="#" class="nav-link">Contact</a></li>
+          </ul>
         </div>
-    </nav>
-    <!----------------------/Nav Bar --------------------->  
-  </div>
+      </nav>
+      <!----------------------/Nav Bar --------------------->
+    </div>
     </div>
     </button>
     </nav>
@@ -52,24 +59,24 @@
     <!-- Title -->
     <!-- using bootstrap grid -->
     <div class="container-fluid my-container">
-       <div class="row">
-          <div class="col-lg-6">
-            <h1>Meet new and interesting dogs nearby.</h1>
-            <button type="button" class="btn btn-lg btn-outline-light"> 
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>Meet new and interesting dogs nearby.</h1>
+          <button type="button" class="btn btn-lg btn-outline-light">
             <span class="fa-brands fa-apple"></span> Download
           </button>
-            <button type="button  " class="btn btn-lg btn-dark ">
+          <button type="button  " class="btn btn-lg btn-dark ">
             <span class="fa-brands fa-google-play"></span> Download
           </button>
+        </div>
+        <div class="col-lg-6">
+          <img src="images/iphone6.png" alt="iphone-mockup">
+        </div>
       </div>
-      <div class="col-lg-6">
-      <img src="images/iphone6.png" alt="iphone-mockup">
     </div>
-      </div>
-    </div> 
-  </div>
-  </section> 
-  
+    </div>
+  </section>
+
   <!-- wavy svg, the one that is on top -->
   <!-- <div class="custom-shape-divider-top-1665734735">
     <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -78,30 +85,33 @@
         <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
     </svg>
   </div> -->
-<!-----------------------First Page ends----------------------->
+  <!-----------------------First Page ends----------------------->
 
   <!-- Features -->
   <section id="features">
     <div class="row">
-    <div class="col-lg-4 my-col col-md-12   ">
-      <h3><i class="fa-solid fa-circle-check s-icons"></i>
-        <br>
-        Easy to use.</h3>
-      <p>So easy to use, even your dog could do it.</p>
+      <div class="col-lg-4 my-col col-md-12   ">
+        <h3><i class="fa-solid fa-circle-check s-icons"></i>
+          <br>
+          Easy to use.
+        </h3>
+        <p>So easy to use, even your dog could do it.</p>
+      </div>
+      <div class="col-lg-4 my-col col-md-12  ">
+        <h3><i class="fa-regular fa-circle-dot s-icons"></i>
+          <br>
+          Elite Clientele
+        </h3>
+        <p>We have all the dogs, the greatest dogs.</p>
+      </div>
+      <div class="col-lg-4 my-col col-md-12  ">
+        <h3><i class="fa-solid fa-heart s-icons"></i>
+          <br>
+          Guaranteed to work.
+        </h3>
+        <p>Find the love of your dog's life or your money back.</p>
+      </div>
     </div>
-    <div class="col-lg-4 my-col col-md-12  ">
-      <h3><i class="fa-regular fa-circle-dot s-icons" ></i>
-        <br>
-        Elite Clientele</h3>
-      <p>We have all the dogs, the greatest dogs.</p>
-    </div>
-    <div class="col-lg-4 my-col col-md-12  ">
-      <h3><i class="fa-solid fa-heart s-icons"></i>
-        <br>
-        Guaranteed to work.</h3>
-      <p>Find the love of your dog's life or your money back.</p>
-    </div>
-  </div>
   </section>
 
 
@@ -112,19 +122,23 @@
         <div class="carousel-item co-class active">
           <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
           <img src="images/dog-img.jpg" alt="dog-profile">
-         <em>Pebbles, New York</em>gf
+          <em>Pebbles, New York</em>gf
 
         </div>
         <div class="carousel-item co-class">
-          <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+          <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of
+            their life. I think.</h2>
           <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-          <em>Beverly, Illinois</em>        </div>
+          <em>Beverly, Illinois</em>
+        </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="prev">
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleSlidesOnly"
+        data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="next">
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleSlidesOnly"
+        data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
@@ -133,7 +147,7 @@
   <!-- Press -->
   <section id="press">
 
-   <img src="images/TechCrunch.png " alt="tc-logo">
+    <img src="images/TechCrunch.png " alt="tc-logo">
     <img src="images/tnw.png" alt="tnw-logo">
     <img src="images/bizinsider.png" alt="biz-insider-logo">
     <img src="images/mashable.png" alt="mashable-logo">
@@ -143,37 +157,77 @@
 
   <!-- Pricing -->
   <section id="pricing" class="">
-
     <h2>A Plan for Every Dog's Needs</h2>
     <p>Simple and affordable price plans for your and your dog.</p>
-
-
-    <h3>Chihuahua</h3>
-    <h2>Free</h2>
-    <p>5 Matches Per Day</p>
-    <p>10 Messages Per Day</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-
-    <h3>Labrador</h3>
-    <h2>$49 / mo</h2>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-
-    <h3>Mastiff</h3>
-    <h2>$99 / mo</h2>
-    <p>Pirority Listing</p>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
+    <div class="card-deck whole-deck">
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="card my-card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Chihahua</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-tittle">Free</h1>
+              <p class="card-text card-texts">
+                <i class="fa-solid fa-check"></i> 5 matches per day
+              </p>
+              <p class="card-text card-texts">
+                <i class="fa-solid fa-check"></i>10 messages per day
+              </p>
+              <p class="card-text card-texts">
+                <i class="fa-solid fa-check"></i>Unlimited App Usage
+              </p>
+              <button type="button" class="btn btn-lg btn-block btn-outline-dark ">Sign Up</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="card my-card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Labrador</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-tittle">$49<small class="text-muted fw-light">/mo</small></h1>
+              <p class="card-text card-texts">
+                <i class="fa-solid fa-check"></i>Unlimited Matches
+              </p>
+              <p>
+                <i class="fa-solid fa-check"></i>Unlimited messages
+              </p>
+              <p>
+                <i class="fa-solid fa-check"></i>Unlimited App Usage
+              </p>
+              <button type="button" class="btn btn-lg btn-block btn-dark ">Sign Up</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12 col-sm-12">
+          <div class="card my-card  mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Mastiff</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-tittle">$99 <small class="text-muted fw-light">/mo</small></h1>
+              <p class="card-text card-texts">
+                <i class="fa-solid fa-check"></i>Priority Listing
+              </p>
+              <p class="card-text card-texts">
+                <i class="fa-solid fa-check"></i>Unlimited mathes
+              </p>
+              <p class="card-text card-texts">
+                <i class="fa-solid fa-check"></i>Unlimited messages
+              </p>
+              <p class="card-text card-texts">
+                <i class="fa-solid fa-check"></i>Unlimited App Usage
+              </p>
+              <button type="button" class="btn btn-lg btn-block btn-dark ">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
   </section>
-
 
   <!-- Call to Action -->
 
@@ -190,8 +244,9 @@
 
     <p>© Copyright TinDog</p>
 
-  </footer> 
+  </footer>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/sketch.js/1.0/sketch.min.js"></script>
   <script src="js/script.js"></script>
 </body>
+
 </html>
