@@ -21,7 +21,6 @@ h1{
 #title{
 	background-image: linear-gradient(to left,  #ff6653 , #fe1c74);	
 	overflow: scroll;
-	height: 100vh;
 }
 .animation {
 	cursor: pointer;
@@ -207,7 +206,7 @@ h1{
 pricing section starts here */
 #pricing{
 	text-align: center;
-	padding: 100px;
+	padding: 4rem;
 	color: black;
 }
 #pricing h1{
@@ -224,6 +223,7 @@ pricing section starts here */
 	color: #000;
 }
 .my-card{
+	padding: auto;
 	height: 100%;
 }
 .card-texts{
