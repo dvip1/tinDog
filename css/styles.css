@@ -275,7 +275,7 @@ pricing section starts here */
 /* footer section */
 #footer{
 	margin-bottom: 0;
-	background-image: linear-gradient(to left,  #ff6653 , #fe1c74);
+	background-image: linear-gradient(to top, #EDE4E0, white);
 	text-align: center;
-	padding-bottom: 2rem;
+	padding: 4rem;
 }
