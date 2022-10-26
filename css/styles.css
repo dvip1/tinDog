@@ -22,6 +22,16 @@ h1{
 	background-image: linear-gradient(to left,  #ff6653 , #fe1c74);	
 	text-align: left;
 }
+@media screen and (max-width: 1028px){
+	#title{
+		text-align: center;
+	}
+	#title img{
+		width: 60%;
+		transform: rotate(0);
+		position: static;
+	}
+}
 .animation {
 	cursor: pointer;
 	position: relative;
@@ -160,6 +170,7 @@ h1{
 	padding: 15% 7%;
 }
 .my-col{
+	padding: 2rem;
 	text-align: center;
 }
 
@@ -209,7 +220,7 @@ h1{
 pricing section starts here */
 #pricing{
 	text-align: center;
-	padding: 100px;
+	padding: 4rem;
 	color: black;
 	background-image: linear-gradient(to top, #EDE4E0, white);
 }
@@ -250,4 +261,21 @@ pricing section starts here */
 .pricing-card{
 	backdrop-filter: grayscale(0.5) opacity(0.8) 
 
+}
+
+/* cta section */
+#cta{
+	padding: 7rem 5rem ;
+	text-align: center;
+	background-image: linear-gradient(to left,  #ff6653 , #fe1c74);
+}
+#cta button{
+	margin : 0.5rem;
+}
+/* footer section */
+#footer{
+	margin-bottom: 0;
+	background-image: linear-gradient(to left,  #ff6653 , #fe1c74);
+	text-align: center;
+	padding-bottom: 2rem;
 }
