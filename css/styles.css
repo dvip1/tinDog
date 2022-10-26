@@ -20,7 +20,7 @@ h1{
 /* title starts here */
 #title{
 	background-image: linear-gradient(to left,  #ff6653 , #fe1c74);	
-	overflow: scroll;
+	text-align: left;
 }
 .animation {
 	cursor: pointer;
@@ -75,7 +75,7 @@ h1{
 }
 .my-container{
 	position: relative;
-	padding: 3% 15% ;
+	padding: 3% 15% 7%;
 }
 .spacer{
 	aspect-ratio: 960/300;
@@ -119,11 +119,11 @@ h1{
     }
 }
 
-.my-container img, svg{
-	position: relative;
-	transform: rotate(30deg);
-	width: 60%;
-	margin-left: 3%;
+.my-container img, svg	{
+	width: 16%;
+	transform: rotate(25deg);
+	position: absolute;
+	right: 22%;
 }
 .my-container button{
 	margin: 3% 3%;
@@ -142,9 +142,9 @@ h1{
 .nav-items {
 	transition: all .4s ease-in-out;
 	color: #EDE4E0 !important;
-	font-size: 1rem;
+	font-size: 1.1rem;
 	font-weight: inherit;
-	padding: 0 15px;
+	padding: 0 20px;
 
 } 
 .nav-items:hover{
@@ -154,6 +154,9 @@ h1{
 
 /* features section starts here */
 #features{
+	position: relative;
+	background-image: linear-gradient(to top, #EDE4E0, white);
+	z-index: 2;
 	padding: 15% 7%;
 }
 .my-col{
@@ -206,8 +209,9 @@ h1{
 pricing section starts here */
 #pricing{
 	text-align: center;
-	padding: 4rem;
+	padding: 100px;
 	color: black;
+	background-image: linear-gradient(to top, #EDE4E0, white);
 }
 #pricing h1{
 	font-family: 'Montserrat-Black', sans-serif;
@@ -221,14 +225,29 @@ pricing section starts here */
 	line-height: 1.5;;
 	font-size: 1.5 rem;
 	color: #000;
+	
+    
 }
 .my-card{
-	padding: auto;
 	height: 100%;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	 background-color: rgba(255, 255, 255, 0.3) !important;
+  border-radius: 5px;
+  font-family: sans-serif;
+  text-align: center;
+  line-height: 1;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
 }
 .card-texts{
 	text-align: center;
 }
 .whole-deck{
 	padding-top: 3%;
+}
+.pricing-card{
+	backdrop-filter: grayscale(0.5) opacity(0.8) 
+
 }
