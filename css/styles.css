@@ -19,6 +19,7 @@ h1{
 }
 /* title starts here */
 #title{
+	font-family: 'Montserrat-Black', sans-serif;
 	background-image: linear-gradient(to left,  #ff6653 , #fe1c74);	
 	text-align: left;
 }
@@ -138,7 +139,7 @@ h1{
 	position: absolute;
 	right: 22%;
 }
-.my-container a{
+.my-container button{
 	margin: 3% 3%;
 }
 .nav-brand{
