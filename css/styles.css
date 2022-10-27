@@ -197,7 +197,7 @@ h1{
 	font-family: 'Montserrat-Black', sans-serif;
 	line-height: 1.5;
 	font-weight: bold;
-	font-size: 2.5 rem;
+	font-size: 3 rem;
 }
 #testimonials img{
 	margin: 20px;
@@ -220,7 +220,7 @@ h1{
 pricing section starts here */
 #pricing{
 	text-align: center;
-	padding: 4rem;
+	padding: 4.5rem 4rem;
 	color: black;
 	background-image: linear-gradient(to top, #EDE4E0, white);
 }
@@ -244,13 +244,13 @@ pricing section starts here */
 	align-items: center;
 	display: flex;
 	justify-content: center;
-	 background-color: rgba(255, 255, 255, 0.3) !important;
-  border-radius: 5px;
-  font-family: sans-serif;
-  text-align: center;
-  line-height: 1;
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
+	background-color: rgba(255, 255, 255, 0.3) !important;
+	border-radius: 5px;
+	font-family: sans-serif;
+ 	text-align: center;
+  	line-height: 1;
+  	-webkit-backdrop-filter: blur(10px);
+  	backdrop-filter: blur(10px);
 }
 .card-texts{
 	text-align: center;
@@ -269,13 +269,33 @@ pricing section starts here */
 	text-align: center;
 	background-image: linear-gradient(to left,  #ff6653 , #fe1c74);
 }
+#cta a{
+	text-decoration: none;
+
+}
 #cta button{
 	margin : 0.5rem;
 }
 /* footer section */
 #footer{
+	
 	margin-bottom: 0;
 	background-image: linear-gradient(to top, #EDE4E0, white);
 	text-align: center;
 	padding: 4rem;
+}
+#footer p{
+	margin: 0.4rem;
+	font-family: 'Montserrat-Black', sans-serif;
+	line-height: 1.5;
+	font-size: 1 rem;
+	color: grey;
+}
+#footer a{
+	text-decoration: none;
+	color: #ff6155;
+	height: 3rem;
+}
+#footer a:hover{
+	color: #fe1f73;
 }
